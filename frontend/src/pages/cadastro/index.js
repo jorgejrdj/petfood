@@ -1,12 +1,10 @@
-import Logo from '../../assets/logo-white.png';
+import Header from '../../components/header';
 import Illustration from '../../assets/illustration.png';
 
 const Cadastro = () => {
   return (
     <div className="container-fluid h-100 bg-primary">
-      <div className="col-12" >
-        <img src={Logo} />
-      </div>
+
       <div className="row">
         <div className="col-6 text-right my-auto">
           <img src={Illustration} className="img-fluid" />
@@ -35,7 +33,7 @@ const Cadastro = () => {
         </div>
 
       </div>
-    </div>
+    </div >
   )
 
 }
