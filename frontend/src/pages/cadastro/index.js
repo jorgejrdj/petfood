@@ -18,7 +18,7 @@ const Cadastro = () => {
             <br />
             <input type="text" className="form-control form-control-bg mb-3"
               placeholder="Nome Completo" />
-            <input type="text" className="form-control form-control-bg mb-3"
+            <input type="email" className="form-control form-control-bg mb-3"
               placeholder="E-mail" />
             <input type="text" className="form-control form-control-bg mb-3"
               placeholder="CPF" />
